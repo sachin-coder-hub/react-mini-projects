@@ -1,5 +1,6 @@
 import "./App.css";
 import Accordian from "./components/Accordian";
+import LightDarkMode from "./components/DarkLightTheme";
 import ImageSlider from "./components/ImageSlider";
 import LoadMoreData from "./components/LoadMoreData";
 import QRCodeGen from "./components/QRCode";
@@ -14,7 +15,8 @@ function App() {
       {/* <StarRating noOfStars={10} /> */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={5} /> */}
       {/* <LoadMoreData /> */}
-      <QRCodeGen />
+      {/* <QRCodeGen /> */}
+      {/* <LightDarkMode /> */}
     </div>
   );
 }
