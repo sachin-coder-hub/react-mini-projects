@@ -7,18 +7,20 @@ import QRCodeGen from "./components/QRCode";
 import RandomColorGen from "./components/RandomColorGen";
 import StarRating from "./components/StarRating";
 import ScrollIndicator from "./components/ScrollIndicator";
+import ModalTest from "./components/CustomModal/modal-test";
 
 function App() {
   return (
     <div className="App">
-      {/* <Accordian />
-      <RandomColorGen /> */}
+      {/* <Accordian /> */}
+      {/* <RandomColorGen /> */}
       {/* <StarRating noOfStars={10} /> */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={5} /> */}
       {/* <LoadMoreData /> */}
       {/* <QRCodeGen /> */}
       {/* <LightDarkMode /> */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <ModalTest />
     </div>
   );
 }
