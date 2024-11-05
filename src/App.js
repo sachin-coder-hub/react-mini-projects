@@ -12,6 +12,7 @@ import GitProfileFinder from "./components/GitProfileFinder";
 import SearchAutoComplete from "./components/SearchAutoComplete";
 import FeatureFlagGlobalContext from "./components/FeatureFlags/context";
 import FeatureFlags from "./components/FeatureFlags";
+import UseOutsideClick from "./components/useOustideClick";
 
 function App() {
   return (
@@ -27,9 +28,10 @@ function App() {
       {/* <ModalTest /> */}
       {/* <GitProfileFinder /> */}
       {/* <SearchAutoComplete /> */}
-      <FeatureFlagGlobalContext>
+      {/* <FeatureFlagGlobalContext>
         <FeatureFlags />
-      </FeatureFlagGlobalContext>
+      </FeatureFlagGlobalContext> */}
+      <UseOutsideClick />
     </div>
   );
 }
