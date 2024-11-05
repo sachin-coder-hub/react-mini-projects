@@ -9,6 +9,7 @@ import StarRating from "./components/StarRating";
 import ScrollIndicator from "./components/ScrollIndicator";
 import ModalTest from "./components/CustomModal/modal-test";
 import GitProfileFinder from "./components/GitProfileFinder";
+import SearchAutoComplete from "./components/SearchAutoComplete";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <ModalTest /> */}
-      <GitProfileFinder />
+      {/* <GitProfileFinder /> */}
+      <SearchAutoComplete />
     </div>
   );
 }
