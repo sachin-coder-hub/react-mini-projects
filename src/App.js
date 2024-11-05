@@ -10,6 +10,8 @@ import ScrollIndicator from "./components/ScrollIndicator";
 import ModalTest from "./components/CustomModal/modal-test";
 import GitProfileFinder from "./components/GitProfileFinder";
 import SearchAutoComplete from "./components/SearchAutoComplete";
+import FeatureFlagGlobalContext from "./components/FeatureFlags/context";
+import FeatureFlags from "./components/FeatureFlags";
 
 function App() {
   return (
@@ -24,7 +26,10 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <ModalTest /> */}
       {/* <GitProfileFinder /> */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+      <FeatureFlagGlobalContext>
+        <FeatureFlags />
+      </FeatureFlagGlobalContext>
     </div>
   );
 }
